@@ -19,7 +19,7 @@ A JAX-RS RESTful API built with Jersey 2.x and an embedded Grizzly HTTP server. 
 1. Clone the repository:
 
 
-git clone https://Anthony5678-dev/SmartCampusApi.git
+git clone https://github.com/Anthony5678-dev/SmartCampusApi.git
 cd SmartCampusApi
 
 
