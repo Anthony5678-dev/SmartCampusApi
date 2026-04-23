@@ -91,7 +91,7 @@ curl.exe http://localhost:8080/SmartCampusApi/api/v1/sensors
 
 ### 5. Filter Sensors by Type
 
-curl.exe "http://localhost:8080/SmartCampusApi/api/v1/sensors?type=Temperature"
+curl.exe http://localhost:8080/SmartCampusApi/api/v1/sensors?type=Temperature
 
 ### Outcome
 
@@ -184,9 +184,6 @@ For this reason, stack traces should not be shown to users. Instead, they should
 
 ### Part 5.5
 
-That’s a very solid answer — here’s a cleaner version in your style while keeping the key points:
-
----
 
 Using a JAX-RS filter for logging is better than adding `Logger.info()` in every resource method because it keeps the code cleaner and more consistent.
 
