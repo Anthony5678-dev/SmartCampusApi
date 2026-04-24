@@ -9,7 +9,6 @@ A JAX-RS RESTful API built with Jersey 2.x and an embedded Grizzly HTTP server. 
 ### Prerequisites
 
 * Java 11 or higher
-* Apache Tomcat 9
 * NetBeans (or any IDE with Maven support)
 
 ---
@@ -25,7 +24,7 @@ cd SmartCampusApi
 
 2. Open in NetBeans:
 
-* File → Open Project → select the folder
+ File → Open Project → select the folder
 
 3. Build:
 
@@ -35,7 +34,7 @@ mvn clean install
 
 4. Run:
 
-* Right-click project → Run (deploys to Tomcat)
+Right-click project → Run (starts embedded server)
 
 ---
 
